@@ -21,6 +21,7 @@
       "vite": "^5.4.11"
     },
     "devDependencies": {
+<<<<<<< HEAD
       "autoprefixer": "^10.4.20",
       "gh-pages": "^6.2.0",
       "postcss": "^8.4.49",
@@ -28,3 +29,18 @@
     }
   }
   
+=======
+        "autoprefixer": "^10.4.20",
+        "gh-pages": "^6.2.0",
+        "postcss": "^8.4.49",
+        "tailwindcss": "^3.4.15"
+    },
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    }    
+}
+
+>>>>>>> 59fe9ce72eafc5f17fd069d4ff22cf6db18c3443
