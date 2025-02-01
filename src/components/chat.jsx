@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Card, CardContent } from '../components/ui/card.jsx';
-import { Button } from '../components/ui/button';
+import { Card, CardContent } from './ui/card';
+import { Button } from './ui/button';
 import { Send, User, Bot } from 'lucide-react';
-import { Input } from '../components/ui/input';
-import year1Words from '../data/year1.js';
+import { Input } from './ui/input';
+import year1Words from '../data/year1';
 
 const TypingAnimation = () => (
   <div className="flex space-x-1 p-2">
